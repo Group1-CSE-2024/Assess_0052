@@ -1,0 +1,41 @@
+  501     mkdir Assess_0052
+  502  cd Assess_0052
+  503  git init
+  504  pwd
+  505  mkdir img
+  506  vi 52.c
+  507  git add 52.c
+  508  git commit -m "c file added"
+  509  vi 52.txt
+  510  git add 52.txt
+  511  git commit -m "txt file added "
+  512  vi 52.html
+  513  git add 52.html
+  514  git commit -m "html file added"
+  515  vi 52.img
+  516  git add 52.img
+  517  git commit -m "img file added"
+  518  git status
+  519  git log --oneline
+  520  git add remote https://github.com/ashumehta18/scm_eva.git
+  521  git remote add https://github.com/ashumehta18/scm_eva.git
+  522  git push -u origin master
+  523  git remote add https://github.com/ashumehta18/scm_eva.git
+  524  git remote add origin https://github.com/ashumehta18/scm_eva.git
+  525  git push -u origin master
+  526  cd img
+  527  vi .gitignore
+  528  git add .gitignore
+  529  git commit -m "c , txt , img are ignored"
+  530  vi 52.c
+  531  git add 52.c
+  532  git commit -m "c file update"
+  533  git status
+  534  cd ..
+  535  vi hyy.img
+  536  git add hyy.img
+  537  git commit -m "ss added"
+  538  vi login.txt
+  539  history
+
+
